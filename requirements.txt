@@ -8,4 +8,4 @@ scipy
 scikit-learn
 requests
 python-dateutil
-
+matplotlib
