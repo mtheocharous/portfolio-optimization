@@ -2,6 +2,8 @@ from flask import Flask, request, jsonify, send_file
 from flask_cors import CORS
 import io
 import os
+import matplotlib
+matplotlib.use('Agg')  # Use non-GUI backend
 import matplotlib.pyplot as plt
 import portfolio_optimization  # Import your portfolio optimization functions
 
